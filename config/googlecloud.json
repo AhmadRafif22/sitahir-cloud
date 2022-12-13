@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "fluid-tuner-364517",
+    "private_key_id": "1ed330f68a3cfa08b5706952ccabcc2e39004140",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPns3RpH0Y9COo\nUilHCxP3wZs/EwoFmTwnuW8PT2bSK6DsKgoyQkL8ki6giFXSBfwCl01Ie/naTwu+\nftdUIBswkVEiqPm1LvaRgvgxCDyWratmAdjNwpZ0bATUjMgMvs7/Ov1dwHeGWrLB\ntHT3Z2nB4oWci5TnN+jXFeGHB5wVR5e2QnEFl0At5uX0reFOW1pCKRr/BOYoF8yo\nMc1Xrs6h/V4J8MGO4tiY46HAEQ5rC/R33gTf+T6xeL8qpHYnYqbF8+M83K0UFtnt\ntItolv0+JWBFo2kcCVyC7+RQd/oe99dfWisTGd3MMpg+aASIpUQYsyObhFmbkHAG\n1AwlN8GfAgMBAAECggEAAlGnwtuvegPgEhU42M5K3s2OylmQFxfrEBaGIwmkAFz0\nYy7lBkKvNNr9IlXjf4EJm43NEy4vUDzpyKrqBMqHAzfcTCLPBzMLFfz8gK+y3Yv7\nChyjK0ktHQfH1gfshBftf/RMuCtaKmoA7SDy3YCOMdgx3dnBRAPf2ecoqbVwDNzG\nsn57WEbSRNjWLIuQc6iH+6aQIVkYcAN0iKsVfatlCmbs/Q4Wh3TBI4gScIMcb7PV\nmV2moUYnOwSctZ9+hK7apNgQpOzSRyUGUQKjPER+5dKUqgBrApq4Skw374PK94PT\nc7lKjVYzo/xWkf2FfVZWzINxd8wch7f4PfJTh/SuoQKBgQDpdn4w6ZZbZ5n4cBLa\nMQgY/g5Q8w4YiEsirOWshSrwnTkRbSFoDQpYnRZS8IldqBfqMP9RLZ2GpDtgQVsp\nRKjMCELvYK/hoDb8a+1SOGBx6Y4bzFuNa3vr2ZuX2bJgT6P/3pYAVu8OMPZfFWtR\nVAWMpUDhTYvwncef9tjSsEHCHQKBgQDjqavTbcgMD1tCXjonj7EbbpSSHx6/P0/4\nRvjWaq+vOe/g50Zm9M5/4jK9Hrm4K8bR5puOTVzw/05AwKWUKv08xSMkeb0pMPiI\n3F+eSuLm2PhSQlhKi5NsG9ycS4AvvCo8Ybr6QMy+DfP8MVk1s/v/Mk/+BhLf9TdX\nFhPjU1AF6wKBgATYQKYjMsuSys8tBDci7VgXbZSgdppruaNukxWRbeKwYI7MBPVz\nz9Mm71+pPjCDXHuvqJy2pZ41qkXFFW81zYruYPU2vG+iM4Hpe3NJWDcE8b4B76Rv\nppKuYVw1WE5HWM/mfpZjN3LD8VjnyOJXLAZPJ5mFUnIb1BittrIoljTBAoGBAJKj\nxjZgPvttpMWB9glnZ5eYyX+5Jc/f0v3DkSJjA5hlRBpkPZexVZVPuIjSUqPLJrwq\nwsWNFTFx8RCKRdzDN+w9up4TAAGZNmzJLZnC+JXi6Ufqzf3uG14GMDpH82BL3hSY\nipwIwxgj2qT1kFWkAcvlt1qSxPOWejfQ06yYDDJTAoGAOQoWkKIfTwUr42J/jCs9\ns4b+d1JLkTDTLM+ZIivJOTce2/Cn6pO8310eeeVgVtZ0rDeY9L/xVRw6hQ+yzsjt\nIvI14hrIi1TgyPuXbB+RhoeqR6/503lz0dShNNO1N1KtE/+yOMXgw4qFq/Xcl+1X\nD8vuKesnN4Baa8/BVHA236I=\n-----END PRIVATE KEY-----\n",
+    "client_email": "sitahir-driver-app@fluid-tuner-364517.iam.gserviceaccount.com",
+    "client_id": "117037099667688824109",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sitahir-driver-app%40fluid-tuner-364517.iam.gserviceaccount.com"
+  }
+  

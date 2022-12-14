@@ -21,6 +21,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 </head>
 
 <body>

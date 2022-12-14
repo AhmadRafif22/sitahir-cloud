@@ -63,7 +63,8 @@
                       <div class="mb-2 row">
                         <label for="foto" class="col-sm-4 col-form-label label-modal">Foto</label>
                         <div class="col-sm-8">
-                          <img src="{{ asset('storage/'.$ang->foto) }}" alt="" width="80" height="80" id="preImg" class="rounded">
+                          {{-- <img src="{{ asset('storage/'.$ang->foto) }}" alt="" width="80" height="80" id="preImg" class="rounded"> --}}
+                          <img src="{{ 'https://storage.googleapis.com/bucket-sitahir/'.$ang->foto }}" alt="" width="80" height="80" id="preImg" class="rounded">
                         </div>
                       </div>
                       <div class="mb-2 row">
@@ -154,7 +155,7 @@
                         <div class="mb-2 row">
                           <label for="foto" class="col-sm-4 col-form-label label-modal">Foto</label>
                           <div class="col-sm-8">
-                            <img src="{{ asset('storage/'.$ang->foto) }}" alt="" width="80" height="80" id="preImg" class="rounded">
+                            <img src="{{ 'https://storage.googleapis.com/bucket-sitahir/'.$ang->foto }}" alt="" width="80" height="80" id="preImg" class="rounded">
                             <input type="file" class="form-control form-control-sm" id="foto" name="foto">
                           </div>
                         </div>

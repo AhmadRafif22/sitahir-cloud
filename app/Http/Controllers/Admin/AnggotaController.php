@@ -172,6 +172,7 @@ class AnggotaController extends Controller
             // ada file yang diupload
             if ($anggota->foto && $anggota->foto != 'img/profile/default.png' && file_exists(storage_path('app/public/' . $anggota->foto))) {
                 Storage::delete('public/' . $anggota->foto);
+                $bucket->object($anggota->foto)->delete();
             }
             $filenameWithExt = $request->file('foto')->getClientOriginalName();
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);

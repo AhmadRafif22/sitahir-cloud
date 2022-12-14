@@ -86,7 +86,7 @@ class AnggotaController extends Controller
         $anggota->nama = $request->get('nama');
         $anggota->alamat = $request->get('alamat');
         $anggota->nowa = $request->get('nowa');
-        $anggota->foto = 'https://storage.googleapis.com/bucket-sitahir/img/profile/anggota/pohon_1667399812.JPG';
+        $anggota->foto = 'img/profile/default.png';
         $anggota->tgl_gabung = Carbon::parse(now());
         $anggota->instalasi = 0;
         $anggota->user()->associate($user);
@@ -182,7 +182,7 @@ class AnggotaController extends Controller
 
 
             // save on bucket
-            $fileSource = fopen(public_path('/storage/' . $savepath), 'r');
+            $fileSource = fopen(storage_path('app/public/' . $savepath), 'r');
 
             $bucket->upload($fileSource, [
                 'predefinedAcl' => 'publicRead',

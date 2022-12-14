@@ -86,7 +86,7 @@ class AnggotaController extends Controller
         $anggota->nama = $request->get('nama');
         $anggota->alamat = $request->get('alamat');
         $anggota->nowa = $request->get('nowa');
-        $anggota->foto = 'img/profile/default.png';
+        $anggota->foto = 'https://storage.googleapis.com/bucket-sitahir/img/profile/anggota/pohon_1667399812.JPG';
         $anggota->tgl_gabung = Carbon::parse(now());
         $anggota->instalasi = 0;
         $anggota->user()->associate($user);

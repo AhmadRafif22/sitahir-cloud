@@ -13,6 +13,14 @@ use App\Http\Controllers\Anggota\InstalasiAnggotaController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Pengurus\PengurusController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Artisan;
+
+// route for migrate seed on cloud run
+Route::get('/setDb', function () {
+    Artisan::call('migrate:rollback', ['--force' => true]);
+    Artisan::call('migrate', ['--force' => true]);
+    Artisan::call('db:seed', ['--force' => true]);
+});
 
 // first route
 Route::get('/', function () {

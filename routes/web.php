@@ -22,6 +22,10 @@ Route::get('/setDb', function () {
     Artisan::call('db:seed', ['--force' => true]);
 });
 
+Route::get('/clear', function () {
+    Artisan::call('config:clear');
+});
+
 // first route
 Route::get('/', function () {
     return view('auth.login');
